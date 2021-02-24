@@ -36,13 +36,10 @@
 
 **2. ELK Stack 이란?**
 
-**
-**
 
 
 **![ELK stackì ëí ì´ë¯¸ì§ ê²ìê²°ê³¼](https://logz.io/wp-content/uploads/2018/08/image21-1024x328.png)**
 
-**
 
 
 
