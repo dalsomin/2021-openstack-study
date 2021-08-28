@@ -14,3 +14,6 @@ eat의 기본 구조를 도시한다. 사용자는 API를 직접 호출하여 �
 CLI 역시 사용자 명령을 API로 변환하여 처리하게 된다. 
 현재 Heat API 서버에서 지원하는 API의 종류는 두 가지로 하나는 아마존 웹서비스의 클라우드포메이션이션 API이고, 또 하나는 Heat에서 독자적으로 정의한API이다. 
 두 가지 API 모두 HTTP 프로토콜을 활용하 지만 클라우드포메이션 API는 Query API 방식이며 Heat API는 Restful API 방식을 따른다.
+
+ Heat Orchestartion Template
+Heat는 템플릿 기반의 오케스트레이션 서비스를 제공하는 프로젝트로 사용자가 구성하고자 할 가상 자원들을 템플릿에 명시하도록 한다. 템플릿은 JSON(Java-Script Object Notation)이나 YAML(YAML Ain't Mark-up Language)과 같이 사람이 쉽게 읽고 작성할 수 있는 텍스트 기반의 데이터 인코딩 방식을 이용한다. 아마존 웹서비스의 CFN 템플릿이 JSON 기반의 표현 방식을 사용하는 반면 HOT 템플릿은 YAML을 인코딩 방식으로 사용한다. YAML 방식이 JSON 방식에 비해 파싱(parsing)의 부하가 좀 더 크지만 JSON과 달리 멀티라인 스트링을 지원하고 주석 처리가 용이하다는 장점을 갖는다. 
